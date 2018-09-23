@@ -403,8 +403,6 @@ Wire Wire Line
 	5700 5100 6450 5100
 Wire Wire Line
 	5700 5200 6550 5200
-Wire Wire Line
-	6350 1950 6350 1800
 $Comp
 L Device:R R13
 U 1 1 5BAA9982
@@ -429,10 +427,6 @@ F 3 "https://www.vishay.com/docs/85180/tdsr1350.pdf" H 6350 2340 50  0001 L CNN
 	1    6350 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7400 1950 7400 1800
-Wire Wire Line
-	8450 1950 8450 1800
 $Comp
 L KLALIB_Analog_ADC:ICL7106 U2
 U 1 1 5BB0DAC6
@@ -501,17 +495,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 3450 3400 3450
 Wire Wire Line
-	6350 1800 7400 1800
-Wire Wire Line
-	8450 1800 7400 1800
-Connection ~ 7400 1800
-Wire Wire Line
-	8450 1800 9050 1800
-Wire Wire Line
 	9050 1800 9050 5900
 Wire Wire Line
 	9050 5900 6250 5900
-Connection ~ 8450 1800
 NoConn ~ 5700 5300
 NoConn ~ 5700 5400
 Wire Wire Line
@@ -723,7 +709,7 @@ U 1 1 5BBA66F5
 P 4900 2700
 F 0 "C4" H 5018 2746 50  0000 L CNN
 F 1 "100u" H 5018 2655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4938 2550 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4938 2550 50  0001 C CNN
 F 3 "" H 4900 2700 50  0001 C CNN
 	1    4900 2700
 	1    0    0    -1  
@@ -780,4 +766,24 @@ F 3 "~" H 1850 3350 50  0001 C CNN
 	1    1850 3350
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6450 1950 6450 1800
+Wire Wire Line
+	7500 1950 7500 1900
+NoConn ~ 7400 1950
+Wire Wire Line
+	6450 1800 7500 1800
+NoConn ~ 6350 1950
+NoConn ~ 8850 2750
+Wire Wire Line
+	8450 1950 8450 1800
+Wire Wire Line
+	8450 1800 9050 1800
+Wire Wire Line
+	8550 1950 8550 1900
+Wire Wire Line
+	8550 1900 7500 1900
+Connection ~ 7500 1900
+Wire Wire Line
+	7500 1900 7500 1800
 $EndSCHEMATC
