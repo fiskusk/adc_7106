@@ -1,0 +1,5 @@
+*.vs
+*.xml
+*.bak
+*.kicad_pcb-bak
+*.ini

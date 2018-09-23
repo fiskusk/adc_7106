@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name adc_7seg_v0-rescue)(type Legacy)(uri ${KIPRJMOD}/adc_7seg_v0-rescue.lib)(options "")(descr ""))
+  (lib (name LCD_LED_ADC_Intersil_ICL)(type Legacy)(uri "D:/zaloha/Google Drive/Documents/_vyvoj/adc 7seg/adc_7seg_v0/lbr/LCD_LED_ADC_Intersil_ICL.lib")(options "")(descr ""))
+)
