@@ -424,7 +424,7 @@ U 1 1 5A870D9F
 P 6350 2350
 F 0 "U3" H 6600 2750 50  0000 L CNN
 F 1 "TDSR1350" H 6500 2650 50  0000 L CNN
-F 2 "KLALIB_Display_7Segment:TDSR1350" H 6800 2050 50  0001 L CNN
+F 2 "KLALIB_Display_7Segment:TDSR1350_small_pads" H 6800 2050 50  0001 L CNN
 F 3 "https://www.vishay.com/docs/85180/tdsr1350.pdf" H 6350 2340 50  0001 L CNN
 	1    6350 2350
 	1    0    0    -1  
@@ -439,7 +439,7 @@ U 1 1 5BB0DAC6
 P 5200 4150
 F 0 "U2" H 5450 5350 50  0000 C CNN
 F 1 "ICL7106" H 5450 5250 50  0000 C CNN
-F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 5200 4150 50  0001 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5200 4150 50  0001 C CNN
 F 3 "https://www.intersil.com/content/dam/Intersil/documents/icl7/icl7106-07-07s.pdf" H 5000 2400 50  0001 C CNN
 	1    5200 4150
 	1    0    0    -1  
@@ -535,7 +535,7 @@ U 1 1 5BB64724
 P 7400 2350
 F 0 "U4" H 7650 2750 50  0000 L CNN
 F 1 "TDSR1350" H 7550 2650 50  0000 L CNN
-F 2 "KLALIB_Display_7Segment:TDSR1350" H 7850 2050 50  0001 L CNN
+F 2 "KLALIB_Display_7Segment:TDSR1350_small_pads" H 7850 2050 50  0001 L CNN
 F 3 "https://www.vishay.com/docs/85180/tdsr1350.pdf" H 7400 2340 50  0001 L CNN
 	1    7400 2350
 	1    0    0    -1  
@@ -546,7 +546,7 @@ U 1 1 5BB64790
 P 8450 2350
 F 0 "U5" H 8700 2750 50  0000 L CNN
 F 1 "TDSR1350" H 8600 2650 50  0000 L CNN
-F 2 "KLALIB_Display_7Segment:TDSR1350" H 8900 2050 50  0001 L CNN
+F 2 "KLALIB_Display_7Segment:TDSR1350_small_pads" H 8900 2050 50  0001 L CNN
 F 3 "https://www.vishay.com/docs/85180/tdsr1350.pdf" H 8450 2340 50  0001 L CNN
 	1    8450 2350
 	1    0    0    -1  
