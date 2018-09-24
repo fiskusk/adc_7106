@@ -3,3 +3,5 @@
 *.bak
 *.kicad_pcb-bak
 *.ini
+
+fp-info-cache
