@@ -236,6 +236,28 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# KLIB_Mechanical_Bolt
+#
+DEF KLIB_Mechanical_Bolt H 0 0 N N 1 F N
+F0 "H" 100 50 50 H V L CNN
+F1 "KLIB_Mechanical_Bolt" 100 -50 50 H V L CNN
+F2 "KLIB_Mechanical:Bolt_M3" 100 -150 50 H I L CNN
+F3 "" 125 -75 50 H I C CNN
+$FPLIST
+ *Bolt*
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -25 -50 25 0 N
+P 2 1 1 0 -25 -25 25 25 N
+P 2 1 1 0 -25 0 25 50 N
+P 2 1 1 0 -25 25 25 75 N
+P 2 1 1 10 -25 75 25 75 N
+P 2 1 1 0 0 -50 25 -25 N
+P 2 1 1 0 0 75 -25 50 N
+P 9 1 1 10 -25 75 -75 75 -75 100 75 100 75 75 25 75 25 -50 -25 -50 -25 75 N
+ENDDRAW
+ENDDEF
+#
 # adc_7seg_v0-rescue_7SEGMENT_CA-display
 #
 DEF adc_7seg_v0-rescue_7SEGMENT_CA-display U 0 25 Y Y 1 F N

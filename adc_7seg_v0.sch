@@ -786,4 +786,48 @@ Wire Wire Line
 Connection ~ 7500 1900
 Wire Wire Line
 	7500 1900 7500 1800
+$Comp
+L KLIB_Mechanical:Bolt H1
+U 1 1 5BA8B8DC
+P 1950 5100
+F 0 "H1" H 2055 5171 50  0000 L CNN
+F 1 "Bolt" H 2055 5080 50  0000 L CNN
+F 2 "KLALIB_Mechanical:Bolt_M3" H 2050 4950 50  0001 L CNN
+F 3 "~" H 2075 5025 50  0001 C CNN
+	1    1950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Mechanical:Bolt H2
+U 1 1 5BA8B9A4
+P 2300 5100
+F 0 "H2" H 2405 5171 50  0000 L CNN
+F 1 "Bolt" H 2405 5080 50  0000 L CNN
+F 2 "KLALIB_Mechanical:Bolt_M3" H 2400 4950 50  0001 L CNN
+F 3 "~" H 2425 5025 50  0001 C CNN
+	1    2300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Mechanical:Bolt H3
+U 1 1 5BA8BA08
+P 2650 5100
+F 0 "H3" H 2755 5171 50  0000 L CNN
+F 1 "Bolt" H 2755 5080 50  0000 L CNN
+F 2 "KLALIB_Mechanical:Bolt_M3" H 2750 4950 50  0001 L CNN
+F 3 "~" H 2775 5025 50  0001 C CNN
+	1    2650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KLIB_Mechanical:Bolt H4
+U 1 1 5BA8BA77
+P 3000 5100
+F 0 "H4" H 3105 5171 50  0000 L CNN
+F 1 "Bolt" H 3105 5080 50  0000 L CNN
+F 2 "KLALIB_Mechanical:Bolt_M3" H 3100 4950 50  0001 L CNN
+F 3 "~" H 3125 5025 50  0001 C CNN
+	1    3000 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-14796753448032767
+14796753449898279
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -46470,8 +46470,8 @@ TDSR1350
 
 
 0
-0
-0
+10
+10
 KLALIB_EMI_Suppression_Filters_Cap_Type
 NFM21C_Series
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
