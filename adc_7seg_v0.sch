@@ -216,7 +216,7 @@ U 1 1 5A816DFA
 P 4500 4450
 F 0 "RV1" H 4430 4496 50  0000 R CNN
 F 1 "5k" H 4430 4405 50  0000 R CNN
-F 2 "KLALIB_Potenciometer_SMD:Potentiometer_Bourns_3269P_Horizontal" H 4500 4450 50  0001 C CNN
+F 2 "KLALIB_Potenciometer_SMD:Potentiometer_SRPASSIVES_1801" H 4500 4450 50  0001 C CNN
 F 3 "" H 4500 4450 50  0001 C CNN
 	1    4500 4450
 	1    0    0    -1  
@@ -461,7 +461,7 @@ U 1 1 5BB17F12
 P 3100 2550
 F 0 "JP1" H 3100 2755 50  0000 C CNN
 F 1 "2V" H 3100 2664 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3100 2550 50  0001 C CNN
+F 2 "KLIB_Mechanical:Jumper" H 3100 2550 50  0001 C CNN
 F 3 "~" H 3100 2550 50  0001 C CNN
 	1    3100 2550
 	1    0    0    -1  
@@ -476,7 +476,7 @@ U 1 1 5BB1E9E3
 P 3100 3150
 F 0 "JP2" H 3100 3355 50  0000 C CNN
 F 1 "20V" H 3100 3264 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3100 3150 50  0001 C CNN
+F 2 "KLIB_Mechanical:Jumper" H 3100 3150 50  0001 C CNN
 F 3 "~" H 3100 3150 50  0001 C CNN
 	1    3100 3150
 	1    0    0    -1  
@@ -487,7 +487,7 @@ U 1 1 5BB1EA4F
 P 3100 3450
 F 0 "JP3" H 3100 3655 50  0000 C CNN
 F 1 "200V" H 3100 3564 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3100 3450 50  0001 C CNN
+F 2 "KLIB_Mechanical:Jumper" H 3100 3450 50  0001 C CNN
 F 3 "~" H 3100 3450 50  0001 C CNN
 	1    3100 3450
 	1    0    0    -1  
@@ -718,17 +718,6 @@ F 3 "" H 5250 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C4
-U 1 1 5BBA66F5
-P 4900 2700
-F 0 "C4" H 5018 2746 50  0000 L CNN
-F 1 "100u" H 5018 2655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4938 2550 50  0001 C CNN
-F 3 "" H 4900 2700 50  0001 C CNN
-	1    4900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5BBA687B
 P 4450 2700
@@ -740,24 +729,8 @@ F 3 "~" H 4450 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 2550 4900 2550
-Wire Wire Line
-	4900 2550 4450 2550
-Connection ~ 4900 2550
-Wire Wire Line
 	5250 2550 5250 3000
 Connection ~ 5250 2550
-$Comp
-L power:GND #PWR0111
-U 1 1 5BBB44C2
-P 4900 2850
-F 0 "#PWR0111" H 4900 2600 50  0001 C CNN
-F 1 "GND" H 4905 2677 50  0000 C CNN
-F 2 "" H 4900 2850 50  0001 C CNN
-F 3 "" H 4900 2850 50  0001 C CNN
-	1    4900 2850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0112
 U 1 1 5BBB4518
@@ -780,4 +753,6 @@ F 3 "~" H 1850 3350 50  0001 C CNN
 	1    1850 3350
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4450 2550 5250 2550
 $EndSCHEMATC
