@@ -783,7 +783,6 @@ F 3 "~" H 3325 5075 50  0001 C CNN
 	1    3200 5150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8450 1950
 NoConn ~ 7400 1950
 Wire Wire Line
 	6450 1950 6450 1800
@@ -793,8 +792,6 @@ Wire Wire Line
 	9050 1650 9050 5900
 Wire Wire Line
 	6350 1650 6350 1950
-Wire Wire Line
-	8550 1800 8550 1950
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5BB0563B
@@ -832,11 +829,14 @@ F 3 "~" H 4800 5300 50  0001 C CNN
 $EndComp
 Connection ~ 4800 5300
 Wire Wire Line
-	7500 1800 8550 1800
-Wire Wire Line
 	6450 1800 7500 1800
-Connection ~ 7500 1800
 Wire Wire Line
 	7500 1950 7500 1800
 NoConn ~ 8850 2750
+Wire Wire Line
+	8450 1950 8450 1850
+Wire Wire Line
+	7400 1950 7400 1850
+Wire Wire Line
+	7400 1850 8450 1850
 $EndSCHEMATC
